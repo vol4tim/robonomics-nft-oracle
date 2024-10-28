@@ -1,0 +1,18 @@
+{
+  "SERVER": {
+    "HOST": "127.0.0.1",
+    "PORT": "3001",
+    "SSL_ENABLE": false,
+    "SSL": {
+      "key": "",
+      "cer": ""
+    }
+  },
+  "CONTRACTS": {
+    "NFT": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
+  },
+  "ETHEREUM_ENDPOINT": "ws://127.0.0.1:8545",
+  "PARACHAIN_ENDPOINT": "ws://127.0.0.1:9944/",
+  "CHAIN_TYPES": {},
+  "SIGNER_PARACHAIN": "//Bob"
+}

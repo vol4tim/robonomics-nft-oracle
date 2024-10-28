@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  app:
+    image: vol4/robonomics-oracle:v0.0.1
+    container_name: robonomics-nft-oracle
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./app/files:/app/files
+      - ./app/config:/app/config
